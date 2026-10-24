@@ -26,8 +26,13 @@
         padding: 6px 12px;
         cursor: pointer;
       }
+      button:disabled { cursor: default; opacity: 0.5; }
       #status { margin-left: 8px; color: #555; }
       .muted { color: #777; }
+      hr { border: none; border-top: 1px solid #ddd; margin: 12px 0; }
+      .row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+      select { padding: 4px; }
+      #dataStatus { margin-top: 6px; color: #555; word-break: break-word; }
     </style>
   </head>
   <body>
@@ -36,6 +41,25 @@
     <button id="copy" disabled>Copy</button>
     <button id="refresh">Refresh</button>
     <span id="status"></span>
+
+    <hr>
+
+    <h1>Account Data</h1>
+    <div class="row">
+      <label for="platform">Platform:</label>
+      <select id="platform">
+        <option value="pc">PC</option>
+        <option value="ps4">PlayStation</option>
+        <option value="xb1">Xbox</option>
+        <option value="swi">Switch</option>
+        <option value="mob">iOS</option>
+        <option value="and">Android</option>
+      </select>
+    </div>
+    <div class="row">
+      <button id="fetchData" disabled>Open Account Data</button>
+    </div>
+
     <script src="popup.js"></script>
   </body>
 </html>
