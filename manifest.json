@@ -8,5 +8,13 @@
   "action": {
     "default_title": "Warframe Account ID Grabber",
     "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{86ca0a81-77d0-493b-ae35-491aeb937761}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
   }
 }
