@@ -1,6 +1,6 @@
 # Privacy Policy for Warframe Account ID Grabber
 
-**Last updated:** [DATE]
+**Last updated:** 24 October 2026
 
 Warframe Account ID Grabber ("the Extension") is a browser extension that displays the `gid` cookie that Warframe's website (www.warframe.com) sets for your logged-in browser session, so you can view or copy it. This policy explains what the Extension does with information.
 
@@ -52,7 +52,7 @@ If the Extension's behavior changes, this policy will be updated and the "Last u
 
 ## Contact
 
-For questions about this policy, contact: [NAME / EMAIL / GITHUB ISSUES URL]
+For questions about this policy, contact: https://github.com/Sainan/warframe-account-id-grabber/issues
 
 ## Disclaimer
 
