@@ -1,6 +1,6 @@
 # Privacy Policy for Warframe Account ID Grabber
 
-**Last updated:** 24 October 2026
+**Last updated:** 27 October 2026
 
 Warframe Account ID Grabber ("the Extension") is a browser extension that displays the `gid` cookie that Warframe's website (www.warframe.com) sets for your logged-in browser session, so you can view or copy it. This policy explains what the Extension does with information.
 
@@ -17,7 +17,7 @@ When you open the Extension's popup, it reads the `gid` cookie for `https://www.
 The value is shown in the popup. It leaves the Extension only in these cases:
 
 1. **Copy:** If you click **Copy**, the value is written to your system clipboard.
-2. **Open Account Data:** If you select a platform and click **Open Account Data**, the Extension opens a new browser tab to the Warframe API for that platform (for example, `https://api.warframe.com/cdn/getProfileViewingData.php?playerId=…`). Your browser then sends the value to Warframe's servers as part of that request. This is a normal web request governed by Digital Extremes' own privacy policy, not by this Extension. The Extension does not send the value anywhere else.
+2. **Open Profile Viewing Data:** If you select a platform and click **Open Profile Viewing Data**, the Extension opens a new browser tab to the Warframe API for that platform (for example, `https://api.warframe.com/cdn/getProfileViewingData.php?playerId=…`). Your browser then sends the value to Warframe's servers as part of that request. This is a normal web request governed by Digital Extremes' own privacy policy, not by this Extension. The Extension does not send the value anywhere else.
 
 ## Information the Extension Does Not Collect
 
@@ -32,7 +32,7 @@ The Extension does not:
 
 - **cookies:** Used only to read the `gid` cookie for `https://www.warframe.com/`.
 - **Host access to `https://www.warframe.com/*`:** Used to define the domain whose cookie is read.
-- **Tabs (implicit):** Used to open the account data page in a new tab when you click **Open Account Data**.
+- **Tabs (implicit):** Used to open the profile viewing data page in a new tab when you click **Open Profile Viewing Data**.
 
 ## Sensitive Information
 
